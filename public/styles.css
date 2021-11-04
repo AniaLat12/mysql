@@ -1,0 +1,167 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #272525;
+    color: white;
+}
+nav{
+    position: fixed;
+    background: #1E1D1D;
+    height: 100%;
+    width: 15%;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 1fr;
+    overflow-y: scroll;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+}
+
+ul a{
+    color: wheat;
+}
+
+.nav-el{
+    width: 100%;
+    height: 10%;
+    float: left;
+    margin-top: 10px;
+}
+
+main{
+    height: 100%;
+    width: 85%;
+    float: right;
+    /* padding: 10px; */
+}
+
+.menu{
+    font-size: 3rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.menu svg{
+    height: 3rem;
+    position: relative;
+}
+
+ul svg{
+    height: 26px;
+    display: inline-block;
+    float: right;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.consol{
+    height: 30%;
+    width: 95%;
+    background: #1E1D1D;
+    margin: 2px;
+}
+
+form{
+    background: inherit;
+}
+
+textarea{
+    padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    resize: none;
+    height: 85%;
+    width: 95%;
+    text-decoration: none !important;
+    background: #1E1D1D;
+    border: none;
+    position: relative;
+    display: inline-block;
+    outline:none;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+section button{
+    /* position: absolute; */
+    float: right;
+    border: none;
+    height: 1.5rem;
+    border-radius:1rem;
+    background: white;
+}
+a{
+    text-decoration: none;
+    color:#1E1D1D
+
+}
+
+textarea:focus{
+    outline: none;
+}
+
+article{
+    height: 60%;
+    width: 100%;
+}
+
+header button{
+    background: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem;
+}
+
+/* TABLE  */
+table{
+    width: 100%;
+    /* height: 90%; */
+    text-align: center;
+}
+th{
+    background: #1A1818;
+}
+
+tr{
+    background: #1F1E1E;
+    width: 4rem;
+    /* height: 23px; */
+    line-height: 42px; 
+}
+
+table a, table a:visited{
+    float: right;
+    padding-right: 5px;
+    color: white;
+}
+
+table a:hover{
+    float: right;
+    padding-right: 5px;
+    color: rgb(206, 200, 200);
+}
+
+table svg{
+    height: 2rem;
+    margin: 0;
+}
